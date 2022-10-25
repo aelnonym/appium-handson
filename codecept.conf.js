@@ -11,10 +11,14 @@ exports.config = {
   tests: './*_test.js',
   output: './output',
   helpers: {
-    Appium: {
-      app: 'http://localhost',
-      platform: 'Android',
-      device: 'pixel_5'
+    // Appium: {
+    //   app: 'http://google.com/',
+    //   platform: 'Android',
+    //   device: 'pixel_5'
+    // }
+    WebDriver: {
+      url: 'https://google.com/',
+      browser: 'chrome'
     }
   },
   include: {
