@@ -1,0 +1,27 @@
+{
+  "name": "appium-handson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aelnonym/appium-handson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aelnonym/appium-handson/issues"
+  },
+  "homepage": "https://github.com/aelnonym/appium-handson#readme",
+  "dependencies": {
+    "codeceptjs": "^3.3.6",
+    "webdriverio": "^7.25.2"
+  },
+  "devDependencies": {
+    "selenium-standalone": "^8.2.2"
+  }
+}
